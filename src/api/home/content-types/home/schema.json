@@ -15,9 +15,6 @@
     "Title": {
       "type": "string"
     },
-    "titleDesc": {
-      "type": "richtext"
-    },
     "imageTitle": {
       "type": "string"
     },
@@ -117,6 +114,23 @@
       "type": "string"
     },
     "MetaDescription": {
+      "type": "text"
+    },
+    "home_Explore": {
+      "type": "string"
+    },
+    "homeExploreText1": {
+      "type": "string"
+    },
+    "homeExploreText2": {
+      "type": "string"
+    },
+    "aspinoTextPath": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.aspino-text-path"
+    },
+    "titleDescription": {
       "type": "text"
     }
   }

@@ -15,8 +15,8 @@
     "heading": {
       "type": "string"
     },
-    "Text": {
-      "type": "text"
+    "textField1": {
+      "type": "string"
     },
     "Description": {
       "type": "text"
@@ -39,9 +39,6 @@
     },
     "whatWe": {
       "type": "string"
-    },
-    "Message": {
-      "type": "text"
     },
     "image": {
       "type": "media",
@@ -128,11 +125,31 @@
         "audios"
       ]
     },
-    "MetaTitle": {
+    "metaTitle": {
       "type": "string"
     },
-    "MetaDescription": {
+    "metaDescription": {
       "type": "text"
+    },
+    "textField2": {
+      "type": "string"
+    },
+    "textField3": {
+      "type": "string"
+    },
+    "whatWeDoDescription": {
+      "type": "text"
+    },
+    "whatWeDoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }

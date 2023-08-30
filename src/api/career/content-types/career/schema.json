@@ -12,27 +12,20 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "location": {
       "type": "string"
     },
-    "heading": {
+    "designation": {
       "type": "string"
     },
-    "jobPositions": {
+    "designationCategory": {
       "type": "string"
     },
-    "jobPositionTitle": {
+    "date": {
+      "type": "date"
+    },
+    "flexibleEmployment": {
       "type": "string"
-    },
-    "carrerComponent": {
-      "type": "component",
-      "repeatable": false,
-      "component": "carrer-page.carrer-compo"
-    },
-    "footer": {
-      "type": "component",
-      "repeatable": true,
-      "component": "footer.footer"
     }
   }
 }

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_home_page_aspino_text_paths",
+  "info": {
+    "displayName": "aspinoTextPath"
+  },
+  "options": {},
+  "attributes": {
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "string"
+    }
+  }
+}
