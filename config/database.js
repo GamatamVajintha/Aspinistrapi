@@ -17,7 +17,6 @@
 // npm install pg --save //command used to run the postgres
 
 module.exports = ({ env }) => ({
-
   connection: {
     client: env('DATABASE_CLIENT'),
     connection: {
